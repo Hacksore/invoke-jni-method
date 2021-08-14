@@ -3,7 +3,7 @@ import java.util.Base64;
 
 public class RemoteHttpHeader {
     static {
-        System.loadLibrary("native-lib");
+        System.loadLibrary("native-lib-eu");
     }
 
     public static String getStamp(String payload) {
